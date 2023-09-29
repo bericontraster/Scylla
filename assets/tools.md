@@ -1,9 +1,9 @@
 ## Tools
 `The Guide`
 
-- Information Gathering
-  - [Passive](#)
-    - [whois](#whois)
+## Information Gathering
+- [Passive](#)
+  - [whois](#whois)
 
 
 ## WHOIS
