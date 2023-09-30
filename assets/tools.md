@@ -11,3 +11,7 @@ whois-basic-scan
 ```bash
 whois google.com
 ```
+whois-basic-scan-on-windows
+```bash
+whois.exe google.com
+```
