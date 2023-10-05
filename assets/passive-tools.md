@@ -10,6 +10,8 @@
   - [Curl](#Curl)
   - [Openssl](#Openssl)
 - [The Harvester](/assets/the-harvester-passive.md)
+- [Infrastructure Identification](/assets/infrastructure-identification-passive.md)
+- [Wayback Machine](/assets/wayback-machine-passive.md)
 
 ## WHOIS
 Whois basic scan
@@ -20,6 +22,7 @@ Whois basic scan on windows
 ```bash
 whois.exe google.com
 ```
+---
 
 ## Nslookup
 
@@ -53,6 +56,8 @@ Querying: MX Records
 nslookup -query=MX google.com
 ```
 
+---
+
 ## Dig
 
 Querying: A Records
@@ -85,6 +90,8 @@ Querying: MX Records
 dig mx facebook.com @1.1.1.1
 ```
 
+---
+
 ## Virustotal
 Click [here](https://www.virustotal.com/gui/home/upload).
 
@@ -107,3 +114,4 @@ head -n20 facebook.com_crt.sh.txt
 ```bash
 openssl s_client -ign_eof 2>/dev/null <<<$'HEAD / HTTP/1.0\r\n\r' -connect "${TARGET}:${PORT}" | openssl x509 -noout -text -in - | grep 'DNS' | sed -e 's|DNS:|\n|g' -e 's|^\*.*||g' | tr -d ',' | sort -u*.facebook.com
 ```
+

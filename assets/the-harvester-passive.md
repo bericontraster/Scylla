@@ -24,7 +24,6 @@
 
 To automate this, we will create a file called sources.txt with the following contents.
 ```bash
-Scylla[/guide]$ cat sources.txtbaidu
 bufferoverun
 crtsh
 hackertarget
@@ -42,7 +41,7 @@ zoomeye
 
 Once the file is created, we will execute the following commands to gather information from these sources.
 
-## TheHarvester
+## The Harvester
 ```bash
 cat sources.txt | while read source; do theHarvester -d "${TARGET}" -b 
 $source -f "${source}_${TARGET}";done
