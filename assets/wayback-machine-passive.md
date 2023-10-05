@@ -23,5 +23,5 @@ To get a list of crawled URLs from a domain with the date it was obtained, we ca
 waybackurls -dates https://facebook.com > waybackurls.txt
 ```
 ```bash
-cat waybackurls.txt2018-05-20T09:46:07Z http://www.facebook.com./
+cat waybackurls.txt
 ```
