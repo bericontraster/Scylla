@@ -13,7 +13,7 @@ curl -s http://192.168.10.10
 curl -s http://192.168.10.10 -H "Host: randomtarget.com"
 ```
 We can also automate this by using dictionary file of possible 
-vhost `/SecLists/Discovery/DNS/namelist.txt` wordlist. <br>
+vhost `/SecLists/Discovery/DNS/namelist.txt`. <br>
 `vHost Fuzzing`
 ```bash
 cat ./vhosts | while read vhost;do echo "\n********\nFUZZING: ${vhost}\n********";curl -s -I http://192.168.10.10 -H "HOST: ${vhost}.randomtarget.com" | grep "Content-Length: ";done********
