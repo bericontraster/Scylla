@@ -12,7 +12,7 @@ The [zone transfer](https://hackertarget.com/zone-transfer/) is how a secondary 
 ## Nslookup
 
 A manual approach will be the following. <br>
-==Identifying Nameservers==
+`Identifying Nameservers`
 ```bash
 nslookup -type=NS zonetransfer.me
 ```
