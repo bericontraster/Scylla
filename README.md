@@ -33,4 +33,4 @@ Scylla contians all the commands and approach methods that can be used in Red Te
         - [Zontransfer.me](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#Zontransfer.me)
         - [Nslookup](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#Nslookup)
       - [Gobuster](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#Gobuster)
-      - [Subdomain Finder](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#SubdomainFinder)
+      - [Subdomain Finder](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#subdomain-finder)
