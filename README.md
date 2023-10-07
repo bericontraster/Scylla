@@ -34,3 +34,6 @@ Scylla contians all the commands and approach methods that can be used in Red Te
         - [Nslookup](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#Nslookup)
       - [Gobuster](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#Gobuster)
       - [Subdomain Finder](https://github.com/bericontraster/Scylla/blob/main/assets/subdomain-enumeration-active.md#SubdomainFinder)
+    - [Virtual Hosts](/assets/virtual-hosts.active.md)
+      - [Curl]
+      - [FFuF]
