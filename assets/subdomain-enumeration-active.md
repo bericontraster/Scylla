@@ -2,12 +2,12 @@
 `The Guide`
 
 - [Zone Transfers](#zontransferme)
-  - [Zontransfer.me](#Zontransfer.me)
+  - [Zontransfer.me](#zontransfer)
   - [Nslookup](#Nslookup)
 - [Gobuster](#Gobuster)
-- [Subdomain Finder](#Subdomain-Finder)
+- [Subdomain Finder](#subdomain-finder)
 
-## Zontransfer.me
+## Zontransfer
 The [zone transfer](https://hackertarget.com/zone-transfer/) is how a secondary DNS server receives information from the primary DNS server and updates it. The master-slave approach is used to organize DNS servers within a domain, with the slaves receiving updated DNS information from the master DNS. The master DNS server should be configured to enable zone transfers from secondary (slave) DNS servers, although this might be misconfigured.
 
 ![transfer.me-image](/media/transfer-me.png)
@@ -44,5 +44,5 @@ We can use a wordlist from [Seclists](https://github.com/danielmiessler/SecLists
 gobuster dns -q -r "${NS}" -d "${TARGET}" -w "${WORDLIST}" -p ./patterns.txt -o "gobuster_${TARGET}.txt"
 ```
 
-## Subdomain-Finder
+## Subdomain Finder
 Redirect [Link](https://subdomainfinder.c99.nl/). 
