@@ -5,6 +5,7 @@
 - [FFuF](#ffuf)
 - [Sensitive Information Disclosure](#sensitive-information-disclosure)
   - [Cewl](#cewl)
+  - [FuFF](#ffuf)
 
 # ZAP
 **COMING SOON**
@@ -37,3 +38,6 @@ we will use the following parameters in `ffuf`:
 ```bash
 ffuf -w ./folders.txt:FOLDERS,./wordlist.txt:WORDLIST,./extensions.txt:EXTENSIONS -u http://192.168.10.10/FOLDERS/WORDLISTEXTENSIONS
 ```
+---
+Crawling
+:    Crawling a website is the systematic or automatic process of exploring a website to list all of the resources encountered along the way. It shows us the structure of the website we are auditing and an overview of the attack surface we will be testing in the future. We use the crawling process to find as many pages and subdirectories belonging to a website as possible.

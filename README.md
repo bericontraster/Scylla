@@ -37,4 +37,9 @@ Scylla contians all the commands and approach methods that can be used in Red Te
     - [Virtual Hosts](/assets/virtual-hosts.active.md)
       - [Curl](https://github.com/bericontraster/Scylla/blob/main/assets/virtual-hosts.active.md#Curl)
       - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/virtual-hosts.active.md#FFuF)
-    - [Crawling]
+    - [Crawling](/assets/crawling-active.md)
+      - [Zap](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#zap)
+      - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#ffuf)
+      - [Sensitive Information Disclosure](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#sensitive-information-disclosure)
+        - [CeWL](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#cewl)
+        - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#cewl)
