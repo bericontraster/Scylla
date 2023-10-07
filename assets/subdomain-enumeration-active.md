@@ -5,7 +5,7 @@
   - [Zontransfer.me](#Zontransfer.me)
   - [Nslookup](#Nslookup)
 - [Gobuster](#Gobuster)
-- [Subdomain Finder](#subdomain)
+- [Subdomain Finder](#Subdomain-Finder)
 
 ## Zontransfer.me
 The [zone transfer](https://hackertarget.com/zone-transfer/) is how a secondary DNS server receives information from the primary DNS server and updates it. The master-slave approach is used to organize DNS servers within a domain, with the slaves receiving updated DNS information from the master DNS. The master DNS server should be configured to enable zone transfers from secondary (slave) DNS servers, although this might be misconfigured.
