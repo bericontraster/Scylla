@@ -2,7 +2,7 @@
 `The Guide`
 
 Welcome to `Scylla`. What is Scylla?
-Scylla contians all the commands and approach methods that can be used in Red Teaming, Ctf challanges, Pentesting. I will keep updating it with new techniques and tool.
+Scylla contians all the commands and approach methods that can be used in Red Teaming, Ctf challanges and Pentesting.
 
 ## Map
 - [Reconnaissance](#)
@@ -28,3 +28,7 @@ Scylla contians all the commands and approach methods that can be used in Red Te
       - [Wappalyzer](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#Wappalyzer)
       - [WafW00f](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#WafW00f)
       - [Aquatone](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#Aquatone)
+    - [Subdomain Enumeration](/assets/subdomain-enumeration-active.md)
+      - [ZoneTransfers]
+      - [Gobuster]
+      - [Subdomain Finder]
