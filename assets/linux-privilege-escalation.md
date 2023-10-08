@@ -10,8 +10,7 @@ Confirming that the user is a part of lxc group.
 container-user@nix02:~$ id
 uid=1000(container-user) gid=1000(container-user) groups=1000(container-user),116(lxd)
 ```
-Overview
-: From here on, there are now several ways in which we can exploit LXC/LXD. We can either create our own container and transfer it to the target system or use an existing container. Unfortunately, administrators often use templates that have little to no security. This attitude has the consequence that we already have tools that we can use against the system ourselves. Such templates often do not have passwords, especially if they are uncomplicated test environments.
+> **Overview:** From here on, there are now several ways in which we can exploit LXC/LXD. We can either create our own container and transfer it to the target system or use an existing container. Unfortunately, administrators often use templates that have little to no security. This attitude has the consequence that we already have tools that we can use against the system ourselves. Such templates often do not have passwords, especially if they are uncomplicated test environments.
 ```bash
 container-user@nix02:~$ cd ContainerImages
 container-user@nix02:~$ ls

@@ -44,4 +44,6 @@ Scylla contians all the commands and approach methods that can be used in Red Te
         - [CeWL](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#cewl)
         - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#cewl)
 - [PRIVILEGE ESCALATION](/assets/privilege-escalation.md)
-  - [Linux Privilege Escalation]
+  - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
+    - Service-based Privilege Escalation
+      - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
