@@ -11,6 +11,7 @@ Scylla contians all the commands and approach methods that can be used in Red Te
   - [Windows]()
   - [Linux](/assets/linux-rec.md)
     - [NFS]()
+    - [Find]()
 - Commands & Tools
   - [Passive Information Gathering](/assets/passive-tools.md)
     - [Whois](https://github.com/bericontraster/Scylla/blob/main/assets/passive-tools.md#whois)
@@ -51,3 +52,9 @@ Scylla contians all the commands and approach methods that can be used in Red Te
   - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
     - Service-based Privilege Escalation
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
+- Reverse Shells
+  - [Bash]()
+
+## Hacking Tools
+- Python3
+  - [Image Creater](/assets/imagecreater.md)
