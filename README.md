@@ -45,17 +45,17 @@ Scylla contians all the commands and approach methods that can be used in Red Te
       - [Sensitive Information Disclosure](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#sensitive-information-disclosure)
         - [CeWL](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#cewl)
         - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/crawling-active.md#cewl)
-    - [Directory Fuzzing]()
-      - [Gobuster]()
-      - [FFuF]()
+    - [Directory Fuzzing](/assets/active-information-gathering.md)
+      - [Gobuster](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#gobuster)
+      - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#ffuf)
 - [PRIVILEGE ESCALATION](/assets/privilege-escalation.md)
   - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
     - Service-based Privilege Escalation
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
-- [Attacking Common Applications]()
-  - [Attacking Tomcat CGI]()
+- [Attacking Common Applications](/assets/attacking-common-web-apps.md)
+  - [Attacking Tomcat CGI](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-tomcat-cgi)
 - Reverse Shells
-  - [Bash]()
+  - [Bash](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-common-gateway-interface-cgi-applications---shellshock)
 
 ## Hacking Tools
 - Python3
