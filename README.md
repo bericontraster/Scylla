@@ -52,6 +52,8 @@ Scylla contians all the commands and approach methods that can be used in Red Te
   - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
     - Service-based Privilege Escalation
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
+- [Attacking Common Applications]()
+  - [Attacking Tomcat CGI]()
 - Reverse Shells
   - [Bash]()
 
