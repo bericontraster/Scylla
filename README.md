@@ -55,8 +55,8 @@ Scylla contians all the commands and approach methods that can be used in Red Te
 - [Attacking Common Applications](/assets/attacking-common-web-apps.md)
   - [Attacking Tomcat CGI](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-tomcat-cgi)
   - [Attacking Common Gateway Interface (CGI) Applications - Shellshock](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-common-gateway-interface-cgi-applications---shellshock)
-- [Reverse Shells]()
-  - [Bash](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-common-gateway-interface-cgi-applications---shellshock)
+- [Reverse Shells](/assets/bashrevshells.md)
+  - [Bash]()
 
 ## Hacking Tools
 - Python3
