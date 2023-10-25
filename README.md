@@ -5,14 +5,14 @@ Welcome to `Scylla`. What is Scylla?
 Scylla contians all the commands and approach methods that can be used in Red Teaming, Ctf challanges and Pentesting.
 
 ## Map
-- Reconnaissance
+- [Reconnaissance]()
   - [Common Services](/assets/common-services.md)
   - [Web Services]()
   - [Windows]()
   - [Linux](/assets/linux-rec.md)
     - [NFS]()
     - [Find]()
-- Commands & Tools
+- [Commands & Tools]()
   - [Passive Information Gathering](/assets/passive-tools.md)
     - [Whois](https://github.com/bericontraster/Scylla/blob/main/assets/passive-tools.md#whois)
     - [Nslookup](https://github.com/bericontraster/Scylla/blob/main/assets/passive-tools.md#nslookup)
@@ -50,11 +50,12 @@ Scylla contians all the commands and approach methods that can be used in Red Te
       - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#ffuf)
 - [PRIVILEGE ESCALATION](/assets/privilege-escalation.md)
   - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
-    - Service-based Privilege Escalation
+    - [Service-based Privilege Escalation]()
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
 - [Attacking Common Applications](/assets/attacking-common-web-apps.md)
   - [Attacking Tomcat CGI](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-tomcat-cgi)
-- Reverse Shells
+  - [Attacking Common Gateway Interface (CGI) Applications - Shellshock](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-common-gateway-interface-cgi-applications---shellshock)
+- [Reverse Shells]()
   - [Bash](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-common-gateway-interface-cgi-applications---shellshock)
 
 ## Hacking Tools
