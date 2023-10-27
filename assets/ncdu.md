@@ -10,4 +10,3 @@
 sudo -u#-1 ncdu /root/
 ```
 After inside root through ncdu press 'b' to spawn root shell.
-```bash
