@@ -54,6 +54,8 @@ Scylla contians all the commands and approach methods that can be used in Red Te
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
     - [0-Days](/assets/zero-days.md)
       - [Sudo](https://github.com/bericontraster/Scylla/blob/main/assets/zero-days.md#sudo)
+    - [Environment-based Privilege Escalation]()
+      - [Escaping Restricted Shells]()
 - [Attacking Common Applications](/assets/attacking-common-web-apps.md)
   - [Attacking Tomcat CGI](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-tomcat-cgi)
   - [Attacking Common Gateway Interface (CGI) Applications - Shellshock](https://github.com/bericontraster/Scylla/blob/main/assets/attacking-common-web-apps.md#attacking-common-gateway-interface-cgi-applications---shellshock)
