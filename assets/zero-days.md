@@ -66,6 +66,7 @@ make
 ./exploit
 ```
 Learn [More](https://nickgregory.me/post/2022/03/12/cve-2022-25636/).
+  
 3. 2023 ([CVE-2023-32233](https://github.com/Liuk3r/CVE-2023-32233))
 ```bash
 git clone https://github.com/Liuk3r/CVE-2023-32233
