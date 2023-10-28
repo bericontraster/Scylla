@@ -21,7 +21,7 @@ if __name__ == '__main__':
     main()
 ```
 
-### Uage
+### Usage
 ```bash
 pyton3 imagecreater.py 'id'
 ```
