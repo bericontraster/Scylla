@@ -10,6 +10,7 @@ Scylla contians all the commands and approach methods that can be used in Red Te
   - [Web Services]()
   - [Windows]()
   - [Linux](/assets/linux-rec.md)
+    - [Environment Enumeration]()
     - [NFS]()
     - [Find]()
 - [Commands & Tools](#)
