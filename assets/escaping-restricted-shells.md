@@ -5,8 +5,8 @@
 
 ## Escaping Restricted Shells
 `Types`
-> **RBASH** [Restricted Bourne shell](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html)
-> **RKSH** [Restricted Korn shell](https://www.ibm.com/docs/en/aix/7.2?topic=r-rksh-command)
+> **RBASH** [Restricted Bourne shell](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html)  
+> **RKSH** [Restricted Korn shell](https://www.ibm.com/docs/en/aix/7.2?topic=r-rksh-command)  
 > **RZSH** [Restricted Z shell](https://manpages.debian.org/experimental/zsh/rzsh.1.en.html)
 
 **Escape**
