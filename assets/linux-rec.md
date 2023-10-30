@@ -91,6 +91,31 @@ cat /etc/fstab
 /dev/disk/by-uuid/20b1770d-a233-4780-900e-7c99bc974346 /boot ext4 defaults 0 0
 ```
 
+> **Mounted File Systems**
+```bash
+df -h
+```
+
+> **Unmounted File Systems**
+```bash
+cat /etc/fstab | grep -v "#" | column -t
+```
+
+> **All Hidden Files**
+```bash
+find / -type f -name ".*" -exec ls -l {} \; 2>/dev/null | grep htb-student
+```
+> **All Hidden Directories**
+```bash
+find / -type d -name ".*" -ls 2>/dev/null
+```
+
+> **Temporary Files**
+```bash
+ls -l /tmp /var/tmp /dev/shm
+```
+
+
 ### Routing Tables
 `route` or `netstat -rn`
 ```bash
@@ -115,9 +140,27 @@ _gateway (10.129.0.1) at 00:50:56:b9:b9:fc [ether] on ens192
 cat /etc/passwd | cut -f1 -d:
 ```
 
+> Login shells
+```bash
+grep "*sh$" /etc/passwd
+```
+
+> Existing groups
+```bash
+cat /etc/group
+```
+
+> We can then use the [getent](https://man7.org/linux/man-pages/man1/getent.1.html) command to list members of any interesting groups.
+```bash
+getent group sudo  
+
+sudo:x:27:mrb3n
+```
+
 ### Several LINUX hash algorithms
 ![several-linux-hash](/media/several-linux-hashes.png)
 
+---
 ## Network File System
 NFS export list.
 ```bash
