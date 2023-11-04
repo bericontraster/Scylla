@@ -5,7 +5,8 @@
   - [Drives and Shares](#drives-and-shares)
   - [Routing Tables](#routing-tables)
   - [Enumerating Users](#enumerating-users)
-- [Capabilities]()
+  - [Linux Hashes](#several-linux-hash-algorithms)
+- [Linux Services & Internals Enumeration]()
 - [Network File System - NFS](#network-file-system)
 - [Find](#find)
 
@@ -158,13 +159,82 @@ getent group sudo
 sudo:x:27:mrb3n
 ```
 
----
-
-
 ### Several LINUX hash algorithms
 ![several-linux-hash](/media/several-linux-hashes.png)
 
----
+## Linux Services & Internals Enumeration
+Network Interfaces
+```bash
+ip a
+```
+> Is there anything interesting in the /etc/hosts file?
+```bash
+cat /etc/hosts
+```
+> User's Last Login
+```bash
+lastlog
+```
+> Logged In Users
+```bash
+w
+
+ 12:27:21 up 1 day, 16:55,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+cliff.mo pts/0    10.10.14.16      Tue19   40:54m  0.02s  0.02s -bash
+```
+> Command History
+```bash
+history
+```
+Finding History Files
+```bash
+find / -type f \( -name *_hist -o -name *_history \) -exec ls -l {} \; 2>/dev/null
+```
+Cron
+```bash
+ls -la /etc/cron.daily/
+```
+Proc
+```bash
+find /proc -name cmdline -exec cat {} \; 2>/dev/null | tr " " "\n"
+```
+Installed Packages
+```bash
+apt list --installed | tr "/" " " | cut -d" " -f1,3 | sed 's/[0-9]://g' | tee -a installed_pkgs.list
+```
+> It's also a good idea to check if the sudo version installed on the system is vulnerable to any legacy or recent exploits.
+Sudo Version
+```bash
+sudo -V
+```
+Binaries
+```bash
+ls -l /bin /usr/bin/ /usr/sbin/
+```
+GTFObins
+> [GTFObins](https://gtfobins.github.io/) provides an excellent platform that includes a list of binaries that can potentially be exploited to escalate our privileges on the target system. With the next oneliner, we can compare the existing binaries with the ones from GTFObins to see which binaries we should investigate later.
+```bash
+for i in $(curl -s https://gtfobins.github.io/ | html2text | cut -d" " -f1 | sed '/^[[:space:]]*$/d');do if grep -q "$i" installed_pkgs.list;then echo "Check GTFO for: $i";fi;done
+```
+Trace System Calls
+```basg
+strace ping -c1 10.129.112.20
+```
+Configuration Files
+```bash
+find / -type f \( -name *.conf -o -name *.config \) -exec ls -l {} \; 2>/dev/null
+```
+Scripts
+```bash
+find / -type f -name "*.sh" 2>/dev/null | grep -v "src\|snap\|share"
+```
+Running Services by User
+```bash
+ps aux | grep root
+```
+
+
 ## Network File System
 NFS export list.
 ```bash
