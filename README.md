@@ -53,6 +53,8 @@ Scylla contians all the commands and approach methods that can be used in Red Te
   - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
     - [Service-based Privilege Escalation]()
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
+    - [Linux Internals-based Privilege Escalation](/assets/linux-internals-based-privilege-escalation.md)
+      - [Python Library Hijacking]()
     - [0-Days](/assets/zero-days.md)
       - [Sudo](https://github.com/bericontraster/Scylla/blob/main/assets/zero-days.md#sudo)
       - [Netfilter]()
