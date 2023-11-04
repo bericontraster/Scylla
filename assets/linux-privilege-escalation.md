@@ -1,9 +1,11 @@
 # Linux Privilege Escalation
 `The Guide`
 
-- [Service-based Privilege Escalation]()
+- [Service-based Privilege Escalation](#)
   - [Linux Containers](#linux-containers---lxc)
 - [Kubernetes](#kubernetes)
+  - [Privilege Escalation]()
+
 
 ## Linux Containers - LXC
 Confirming that the user is a part of lxc group.

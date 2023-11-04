@@ -51,7 +51,7 @@ Scylla contians all the commands and approach methods that can be used in Red Te
       - [FFuF](https://github.com/bericontraster/Scylla/blob/main/assets/active-information-gathering.md#ffuf)
 - [PRIVILEGE ESCALATION](/assets/privilege-escalation.md)
   - [Linux Privilege Escalation](/assets/linux-privilege-escalation.md)
-    - [Service-based Privilege Escalation]()
+    - [Service-based Privilege Escalation](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md)
       - [Linux Containers](https://github.com/bericontraster/Scylla/blob/main/assets/linux-privilege-escalation.md#linux-containers---lxc)
       - [Kubernetes]()
     - [Linux Internals-based Privilege Escalation](/assets/linux-internals-based-privilege-escalation.md)
