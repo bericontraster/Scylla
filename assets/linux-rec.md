@@ -167,23 +167,19 @@ Network Interfaces
 ```bash
 ip a
 ```
-> Is there anything interesting in the /etc/hosts file?
+ Is there anything interesting in the /etc/hosts file?
 ```bash
 cat /etc/hosts
 ```
-> User's Last Login
+ User's Last Login
 ```bash
 lastlog
 ```
-> Logged In Users
+ Logged In Users
 ```bash
 w
-
- 12:27:21 up 1 day, 16:55,  1 user,  load average: 0.00, 0.00, 0.00
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-cliff.mo pts/0    10.10.14.16      Tue19   40:54m  0.02s  0.02s -bash
 ```
-> Command History
+Command History
 ```bash
 history
 ```
