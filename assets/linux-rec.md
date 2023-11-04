@@ -6,7 +6,7 @@
   - [Routing Tables](#routing-tables)
   - [Enumerating Users](#enumerating-users)
   - [Linux Hashes](#several-linux-hash-algorithms)
-- [Linux Services & Internals Enumeration]()
+- [Linux Services & Internals Enumeration](#linux-services--internals-enumeration)
 - [Network File System - NFS](#network-file-system)
 - [Find](#find)
 
