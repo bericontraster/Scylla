@@ -2,10 +2,10 @@
 `The Guide`
 
 - [Python Library Hijacking](#python-library-hijacking)
-
+  - [root](#root)
 
 ## Python Library Hijacking
-**Wrong permissions**
+> Permissions
 ```bash
 ls -la mem_status.py
 -rw-rwxr-x 1 htb-student htb-student 491 Nov  4 07:15 mem_status.py
