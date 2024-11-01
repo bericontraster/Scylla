@@ -1,5 +1,5 @@
 # Scylla
-`The Guide`
+## The Guide
 
 Welcome to `Scylla`. What is Scylla?
 Scylla contians all the commands and approach methods that can be used in Red Teaming, Ctf challanges and Pentesting.
